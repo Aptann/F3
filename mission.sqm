@@ -536,7 +536,7 @@ class Mission
 					position[]={8477.207,26.943214,10867.659};
 					id=29;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="B_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B2_GREN";
@@ -735,7 +735,7 @@ class Mission
 					position[]={8503.8818,29.631439,10867.123};
 					id=43;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="B_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C2_GREN";
@@ -6377,7 +6377,7 @@ class Mission
 					position[]={8497.373,15.430099,10560.299};
 					id=403;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A2_GREN";
@@ -6494,7 +6494,7 @@ class Mission
 					position[]={8521.7637,14.296241,10575.74};
 					id=411;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B1_GREN";
@@ -6576,7 +6576,7 @@ class Mission
 					position[]={8521.6191,16.198929,10559.799};
 					id=417;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B2_GREN";
@@ -6693,7 +6693,7 @@ class Mission
 					position[]={8548.7236,14.839226,10575.123};
 					id=425;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C1_GREN";
@@ -6775,7 +6775,7 @@ class Mission
 					position[]={8548.2939,16.047552,10559.264};
 					id=431;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_GL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C2_GREN";
