@@ -55,38 +55,6 @@ case "m":
 	};
 };
 
-// BACKPACK: RADIOMAN AND JTAC (radio)
-case "c":
-{
-	// LOADOUT: LIGHT
-	if (f_param_backpacks == 0) then {
-		_unit addmagazines [_riflemag,2];
-		_unit addmagazines [_grenade,1];
-		_unit addmagazines [_mgrenade,1];
-		_unit addmagazines [_smokegrenade,2];
-	};
-	// LOADOUT: MEDIUM
-	if (f_param_backpacks == 1) then {
-		_unit addBackpack _bagradiosmall;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_riflemag, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 4];
-		
-	};
-	// LOADOUT: HEAVY
-	if (f_param_backpacks == 2) then {
-		_unit addBackpack _bagradiobig;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_riflemag, 6];
-		(unitBackpack _unit) addMagazineCargoGlobal [_riflemag_tr, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 6];
-	};
-};
-
 // BACKPACK: GRENADIER (G)
 case "g":
 {
