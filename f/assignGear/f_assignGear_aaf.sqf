@@ -378,7 +378,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
-		["radio"] call _backpack;
+		["c"] call _backpack;
 	};
 	
 // LOADOUT: RADIO TELEPHONE OPERATOR
@@ -393,7 +393,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
-		["radio"] call _backpack;
+		["c"] call _backpack;
 	};
 
 // LOADOUT: MEDIC

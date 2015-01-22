@@ -76,7 +76,7 @@ case "g":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,3];
 	};
 	// LOADOUT: HEAVY
 	if (f_param_backpacks == 2) then {
@@ -88,7 +88,7 @@ case "g":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 4];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 4];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,4];
 	};
 };
 
@@ -168,7 +168,7 @@ case "rat":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,4];
 	};
 	// LOADOUT: HEAVY
 	if (f_param_backpacks == 2) then {
@@ -178,7 +178,7 @@ case "rat":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,6];
 	};
 };
 
@@ -200,7 +200,7 @@ case "r":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,4];
 		
 	};
 	// LOADOUT: HEAVY
@@ -212,7 +212,7 @@ case "r":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 4];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 4];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag,6];
 	};
 };
 
