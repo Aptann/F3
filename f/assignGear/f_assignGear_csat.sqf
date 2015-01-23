@@ -110,7 +110,7 @@ _diverWep = "arifle_SDAR_F";
 _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
-// Rifle with GL and HE grenades (CO, DC, FTLs)
+// Rifle with GL and HE grenades (Grenadiers)
 _glrifle = "CUP_arifle_AK74_GL";
 _glriflemag = "CUP_30Rnd_545x39_AK_M";
 _glriflemag_tr = "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
