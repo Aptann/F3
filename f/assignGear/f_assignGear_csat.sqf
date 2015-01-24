@@ -69,7 +69,7 @@ _scope2 = "CUP_optic_PSO_1";			// MRCO Scope - 1x - 6x
 _scope3 = "CUP_optic_PSO_3";			// SOS Scope - 18x - 75x
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = []; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -110,7 +110,7 @@ _diverWep = "arifle_SDAR_F";
 _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
-// Rifle with GL and HE grenades (Grenadiers)
+// Rifle with GL and HE grenades (CO, DC, FTLs)
 _glrifle = "CUP_arifle_AK74_GL";
 _glriflemag = "CUP_30Rnd_545x39_AK_M";
 _glriflemag_tr = "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
@@ -174,8 +174,8 @@ _baghsamag = "O_HMG_01_support_F";			// used by Heavy SAM assistant gunner
 
 // Automatic Rifleman
 _AR = "CUP_arifle_RPK74";
-_ARmag = "CUP_30Rnd_545x39_AK_M";
-_ARmag_tr = "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
+_ARmag = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+_ARmag_tr = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 
 // Medium MG
 _MMG = "CUP_lmg_Pecheneg";
@@ -430,7 +430,7 @@ switch (_typeofUnit) do
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,6];
+		_unit addmagazines [_ARmag,4];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_mgrenade,1];
@@ -470,8 +470,7 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER
 	case "mmgg":
 	{
-		_unit addmagazines [_MMGmag,2];
-		_unit addmagazines [_MMGmag_tr,1];
+		_unit addmagazines [_MMGmag,4];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _MMG;
 		_unit addmagazines [_pistolmag,4];
@@ -782,9 +781,9 @@ switch (_typeofUnit) do
 		_unit addmagazines [_riflemag,7];
 		_unit addmagazines [_riflemag_tr,2];
 		_unit addweapon _rifle;
-		_unit addmagazines [_grenade,3];
-		_unit addmagazines [_mgrenade,3];
-		_unit addmagazines [_smokegrenade,3];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_mgrenade,2];
+		_unit addmagazines [_smokegrenade,2];
 		["r"] call _backpack;
 	};
 
@@ -794,9 +793,9 @@ switch (_typeofUnit) do
 		_unit addmagazines [_carbinemag,7];
 		_unit addmagazines [_carbinemag_tr,2];
 		_unit addweapon _carbine;
-		_unit addmagazines [_grenade,3];
-		_unit addmagazines [_mgrenade,3];
-		_unit addmagazines [_smokegrenade,3];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_mgrenade,2];
+		_unit addmagazines [_smokegrenade,2];
 		["car"] call _backpack;
 	};
 
@@ -805,22 +804,22 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_smgmag,7];
 		_unit addweapon _smg;
-		_unit addmagazines [_grenade,3];
-		_unit addmagazines [_mgrenade,3];
-		_unit addmagazines [_smokegrenade,3];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_mgrenade,2];
+		_unit addmagazines [_smokegrenade,2];
 		["smg"] call _backpack;
 	};
 
 // LOADOUT: GRENADIER
 	case "gren":
 	{
-		_unit addmagazines [_glriflemag,7];
+		_unit addmagazines [_glriflemag,4];
 		_unit addmagazines [_glriflemag_tr,2];
 		_unit addweapon _glrifle;
-		_unit addmagazines [_glmag,6];
+		_unit addmagazines [_glmag,4];
 		_unit addmagazines [_glsmokewhite,2];
-		_unit addmagazines [_grenade,3];
-		_unit addmagazines [_mgrenade,3];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_mgrenade,2];
 		_unit addmagazines [_smokegrenade,2];
 		["g"] call _backpack;
 	};
