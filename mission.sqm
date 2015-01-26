@@ -5263,30 +5263,30 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={8057.9834,26.355064,10840.424};
+					position[]={8057.3159,26.298756,10840.835};
+					azimut=1.77231;
 					id=332;
 					side="GUER";
-					vehicle="I_Soldier_AR_F";
+					vehicle="I_Soldier_A_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitAAF_MMG1_G";
-					init="GrpMMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;  ";
-					description="AAF Medium MG Team 1 Gunner";
+					text="UnitAAF_MMG1_AG";
+					init="GrpMMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;  ";
+					description="AAF Medium MG Team 1 Spotter (Leader)";
 				};
 				class Item1
 				{
-					position[]={8059.9985,26.857073,10838.104};
-					azimut=1.77231;
+					position[]={8060.7124,26.574594,10838.777};
 					id=333;
 					side="GUER";
-					vehicle="I_Soldier_A_F";
+					vehicle="I_Soldier_AR_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="UnitAAF_MMG1_AG";
-					init="GrpMMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;  ";
-					description="AAF Medium MG Team 1 Spotter";
+					text="UnitAAF_MMG1_G";
+					init="GrpMMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;  ";
+					description="AAF Medium MG Team 1 Gunner";
 				};
 			};
 		};
