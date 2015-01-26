@@ -152,7 +152,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_PLTCO_JTAC";
-					init="GrpNATO_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+					init="GrpNATO_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear;";
 					description="NATO JTAC";
 				};
 				class Item3
@@ -824,7 +824,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_PLTCO_JTAC";
-					init="GrpCSAT_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+					init="GrpCSAT_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear;";
 					description="CSAT JTAC";
 				};
 				class Item3
@@ -1644,7 +1644,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_PLTCO_JTAC";
-					init="GrpAAF_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+					init="GrpAAF_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear;";
 					description="AAF JTAC";
 				};
 				class Item3
@@ -6192,7 +6192,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_PLTCO_JTAC";
-					init="GrpFIA_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+					init="GrpFIA_PLTCO = group this; [""jtac"",this] call f_fnc_assignGear;";
 					description="FIA JTAC";
 				};
 				class Item3
